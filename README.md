@@ -1,6 +1,6 @@
 # Aulas de LP1
 
-repositório destinao ao conteúdo de LP1.
+repositório destinado ao conteúdo de LP1.
 
 ## Conteúdo
 
