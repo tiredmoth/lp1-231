@@ -1,4 +1,4 @@
-package exercicios;
+package semana04.exercicios;
 
 import java.util.Scanner;
 
