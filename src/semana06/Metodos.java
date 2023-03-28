@@ -8,6 +8,18 @@ public class Metodos {
         imprimirPalavra("girlboss skinny legend slay queen!!!");
         // dessa vez estou chamando um método que eu mesma criei
 
+
+        System.out.println("a soma dos dois é:" + Calculadora.somarNumeros(69,420));
+        // não precisamos usar import pq tá no mesmo package
+
+        //demais funções da calculadora: (exercício da aula)
+
+        System.out.println("a soma dos dois é:" + Calculadora.subtrairNumeros(10,5));
+
+        System.out.println("a soma dos dois é:" + Calculadora.multiplicarNumeros(7,42));
+
+        System.out.println("a soma dos dois é:" + Calculadora.dividirNumeros(69,3));
+
     }
 
     public static void imprimirPalavra (String palavra) {
@@ -24,5 +36,4 @@ public class Metodos {
 
         System.out.println(palavra.toUpperCase());
     }
-
 }
