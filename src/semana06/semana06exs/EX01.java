@@ -1,4 +1,4 @@
-package semana06exs;
+package semana06.semana06exs;
 public class EX01 {
     public static double calcularVolume(double comprimento, double altura, double largura){
         return (comprimento*altura*largura)/1000;

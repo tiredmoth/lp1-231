@@ -1,4 +1,4 @@
-package semana06exs;
+package semana06.semana06exs;
 public class EX02 {
         public static double calcularIMC(double peso, double altura){
         return peso/(altura*altura);
