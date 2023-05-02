@@ -1,55 +1,7 @@
-package semana10;
+package semana07.semana10;
 
-class Retangulo {
-    //Atributos
-    double base;
-    double altura;
+public class Programa {
 
-
-    //Métodos
-    public double calcularArea() {
-        return base*altura;
-    }
-
-    public double calcularPerimetro (){
-        return 2*(base + altura);
-    }
-
-}
-
-class Quadrado {
-    //Atributos
-    double lado;
-
-
-    //Métodos
-    public double calcularArea() {
-        return lado*lado;
-    }
-
-    public double calcularPerimetro (){
-        return 4*lado;
-    }
-
-}
-
-class Circulo {
-    //Atributos
-    double raio;
-
-
-    //Métodos
-    public double calcularArea() {
-        return Math.PI*(raio*raio);
-    }
-
-    public double calcularPerimetro (){
-        return 2* Math.PI*raio;
-    }
-
-}
-
-public class Programa{
     public static void main(String[] args){
 
         //Objeto é uma instância de uma classe
@@ -84,5 +36,5 @@ public class Programa{
 
 
     }
-
+    
 }
