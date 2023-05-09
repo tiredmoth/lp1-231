@@ -1,4 +1,4 @@
-package semana07.semana10;
+package semana10;
 class Circulo {
     //Atributos
     double raio;
