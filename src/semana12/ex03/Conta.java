@@ -1,4 +1,4 @@
-package semana06exs;
+package semana12.ex03;
 
 public class Conta {
     int codigo;
