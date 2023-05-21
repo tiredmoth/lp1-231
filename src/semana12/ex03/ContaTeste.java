@@ -1,4 +1,5 @@
-package semana06exs;
+package semana12.ex03;
+
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
