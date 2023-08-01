@@ -1,4 +1,4 @@
-package semana14.ex02;
+package semana14.exsmoodle.ex02;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 

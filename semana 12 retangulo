@@ -1,0 +1,25 @@
+package semana12;
+
+public class retangulo {
+    public double base;
+    public double altura;
+
+    public retangulo (double base, double altura){
+        this base=base;
+        this altura=altura;
+    }
+    public retangulo(double valor){
+        base = valor;
+        altura = valor;
+    }
+
+    public double calcularArea(){
+        return base* altura;
+    }
+
+    public double calcularPerimetro(){
+        return 2*(base+ altura);
+    }
+}
+
+    

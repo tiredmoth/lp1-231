@@ -1,0 +1,12 @@
+package da semana12;
+
+public class quadrado {
+    public class progranma{
+        
+        public static void main(string[]args){
+            quadradro quadradro = new quadrado();
+            quadrado.lado = 10. 0;
+            double area =quadrado();
+            system.out.println(area);
+            double primeiro = quadrado.calcularPerimetro();
+            system.out.println(perimetro);

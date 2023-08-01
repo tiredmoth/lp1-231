@@ -1,0 +1,16 @@
+package semana 11;
+public class aquario {
+    public double altura;
+    public double cumprimento;
+    public double largura;
+
+    public double calcular volume(){
+        return (comprimento* altura* largura)/100;
+    }
+    public double calcularponteciadotermostato(double temDesejada,double tempeAmbiente){
+        return cacularVolume()* 0,05*(temDesejada -tempeAmbiente){
+        }
+        public double calcularquantidadedelitrosfiltro();{
+            return calcularVolume()* 3;
+            
+    
