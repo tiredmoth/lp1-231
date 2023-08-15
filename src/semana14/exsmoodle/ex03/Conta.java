@@ -1,4 +1,4 @@
-package semana14.ex03;
+package semana14.exsmoodle.ex03;
 
 public class Conta {
     int codigo;

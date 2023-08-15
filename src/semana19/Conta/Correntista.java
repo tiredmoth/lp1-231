@@ -1,4 +1,4 @@
-package semana17.Conta;
+package semana19.Conta;
 
 import java.util.List;
 
@@ -11,6 +11,11 @@ public class Correntista {
         this.setCodigo(codigo);
         this.setNome(nome);
         this.setContas(contas);
+    }
+
+    public void addConta(Conta conta){
+        this.contas.add(conta);
+
     }
 
     public int getCodigo() {

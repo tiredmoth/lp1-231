@@ -1,7 +1,7 @@
-package semana17.Conta;
+package semana19.Conta;
 import java.time.LocalDate;
 
-public class Conta{
+public abstract class Conta{
 
     private int numero;
     private LocalDate dataAbertura;
@@ -14,7 +14,7 @@ public class Conta{
         this.setDataAbertura(dataAbertura);
         this.setSaldo(saldo);
         this.setTarifa(tarifa);
-        this.setCorrentista(correntista);
+        correntista.addConta(this);
     }
 
     public void sacar(double valor){
