@@ -16,9 +16,6 @@ public class Multipla extends Questao {
         this.opcoesCorretas = opcoesCorretas;
     }
 
-    @Override
-    public int calcularPontuacao() {
-        return 1;
     }
 }
 
