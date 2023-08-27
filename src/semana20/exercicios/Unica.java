@@ -16,11 +16,5 @@ public class Unica extends Questao {
         this.opcaoCorreta = opcaoCorreta;
     }
 
-    @Override
-    public int calcularPontuacao() {
-        return 1;
-    }
-}
-
 
 }
