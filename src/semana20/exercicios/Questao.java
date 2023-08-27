@@ -4,6 +4,7 @@ public abstract class Questao{
 
     private int numero;
     private String enunciado;
+    private int nota;
 
     public Questao(int numero, String enunciado) {
         this.setNumero(numero);
@@ -18,7 +19,7 @@ public abstract class Questao{
         this.numero = numero;
     }
 
-    public LocalDate getEnunciado() {
+    public String getEnunciado() {
         return enunciado;
     }
 
@@ -26,9 +27,7 @@ public abstract class Questao{
         this.enunciado = enunciado;
     }
 
-    public abstract int calcularPontuacao();
-
-    @Override
-    public String toString() {
-        return "[" + numero + "] " + enunciado;
+    public int ganharponto(nota){
+        return nota=nota+1;
     }
+}
