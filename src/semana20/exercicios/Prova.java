@@ -22,7 +22,7 @@ public class Prova {
     public void realizarProva() {
         for (Questao questao : questoes) {
             System.out.println(questao);
-            // Aqui você pode adicionar lógica para interação com o usuário, receber respostas, etc.
+            // falta adicionar a interação com o usuario ainda
         }
         System.out.println("Pontuação Total: " + pontuacaoTotal);
     }
