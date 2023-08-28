@@ -1,4 +1,5 @@
 package semana19.Conta;
+
 import java.time.LocalDate;
 
 public class ContaSalario extends Conta {
@@ -11,7 +12,7 @@ public class ContaSalario extends Conta {
     }
 
     @Override
-    public double calcularTarifa() {return super.calcularTarifa();}
+    public double calcularTarifa() {return 0;}
 
     public Empresa getEmpresa() {
         return empresa;

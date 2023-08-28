@@ -1,14 +1,13 @@
 package semana20.exercicios;
 
 public class Verdadeirofalso extends Questao {
-    private static final boolean V=true;
-    private static final boolean F=false;
+    
     private boolean resposta;
     public Verdadeirofalso(int numero, String enunciado, boolean resposta) {
         super(numero, enunciado);
         this.setResposta(resposta);
     }
-    public double getResposta() {
+    public boolean getResposta() {
         return resposta;
     }
     public boolean isResposta() {
@@ -17,6 +16,15 @@ public class Verdadeirofalso extends Questao {
 
     public void setResposta(boolean resposta) {
         this.resposta = resposta;
+    }
+
+    public boolean Vf(char termo){
+        if(termo== 'v' && termo=='V' && resposta){
+            return true;
+        } else 
+        if(termo== 'f' && termo=='F' && resposta){
+            return false;
+        }
     }
 
 }

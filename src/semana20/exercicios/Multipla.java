@@ -1,4 +1,4 @@
-zpackage semana20.exercicios;
+package semana20.exercicios;
 
 public class Multipla extends Questao {
     private List<String> opcoesCorretas;

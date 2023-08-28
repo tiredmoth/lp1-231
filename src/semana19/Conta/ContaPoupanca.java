@@ -1,4 +1,5 @@
 package semana19.Conta;
+
 import java.time.LocalDate;
 
 public class ContaPoupanca extends Conta {
@@ -12,7 +13,7 @@ public class ContaPoupanca extends Conta {
 
     @Override
     public double calcularTarifa() {
-        return super.calcularTarifa();
+        return this.tarifa;
     }
 
     public LocalDate getAniversario() {
