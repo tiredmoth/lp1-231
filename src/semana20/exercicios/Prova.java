@@ -1,22 +1,24 @@
 package semana20.exercicios;
+import java.util.List;
+import java.util.ArrayList;
 
 public class Prova {
 
     private List<Questao> questoes;
-    private int pontuacaoTotal;
+    private int nota;
 
     public Prova() {
         questoes = new ArrayList<>();
-        pontuacaoTotal = 0;
+        nota = 0;
     }
 
     public void adicionarQuestao(Questao questao) {
         questoes.add(questao);
-        pontuacaoTotal += questao.calcularPontuacao();
+    
     }
 
-    public int getPontuacaoTotal() {
-        return pontuacaoTotal;
+    public int getnota() {
+        return nota;
     }
 
     public void realizarProva() {
@@ -24,7 +26,7 @@ public class Prova {
             System.out.println(questao);
             // falta adicionar a interação com o usuario ainda
         }
-        System.out.println("Pontuação Total: " + pontuacaoTotal);
+        System.out.println("Pontuação Total: " + nota);
     }
 }
 

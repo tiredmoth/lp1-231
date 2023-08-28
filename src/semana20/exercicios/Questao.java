@@ -8,6 +8,7 @@ public abstract class Questao{
     public Questao(int numero, String enunciado) {
         this.setNumero(numero);
         this.setEnunciado(enunciado);
+       
     }
 
     public int getNumero() {

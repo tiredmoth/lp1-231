@@ -18,13 +18,14 @@ public class Verdadeirofalso extends Questao {
         this.resposta = resposta;
     }
 
-    public boolean Vf(char termo){
+    public boolean vf(char termo){
         if(termo== 'v' && termo=='V' && resposta){
             return true;
         } else 
-        if(termo== 'f' && termo=='F' && resposta){
-            return false;
+        if(termo== 'f' && termo=='F' && !resposta){
+            return true;
         }
+        return false;
     }
 
 }
