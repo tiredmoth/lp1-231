@@ -1,6 +1,7 @@
 package semana20.exercicios;
 import java.util.List;
 import java.util.ArrayList;
+import java.util.Scanner;
 
 public class Prova {
 
@@ -12,8 +13,8 @@ public class Prova {
         nota = 0;
     }
 
-    public void adicionarQuestao(Questao questao) {
-        questoes.add(questao);
+    public void adicionarQuestao(Questao q) {
+        questoes.add(q);
     
     }
 
@@ -22,9 +23,14 @@ public class Prova {
     }
 
     public void realizarProva() {
-        for (Questao questao : questoes) {
-            System.out.println(questao);
-            // falta adicionar a interação com o usuario ainda
+        for (Questao q : questoes) {
+            q.printEnunciado();
+            Scanner sc = new Scanner(System.in);
+            String resposta = sc.nextLine();
+            sc.close();
+            if (q.isCorrect(resposta)==true){
+                nota++;
+            }
         }
         System.out.println("Pontuação Total: " + nota);
     }

@@ -2,8 +2,8 @@ package semana20.exercicios;
 
 public abstract class Questao{
 
-    private int numero;
-    private String enunciado;
+    protected int numero;
+    protected String enunciado;
 
     public Questao(int numero, String enunciado) {
         this.setNumero(numero);
@@ -25,6 +25,14 @@ public abstract class Questao{
 
     public void setEnunciado(String enunciado) {
         this.enunciado = enunciado;
+    }
+
+    public void printEnunciado(){
+        System.out.println(enunciado);
+    }
+
+    public boolean isCorrect(String resposta){
+        return false;
     }
 
 

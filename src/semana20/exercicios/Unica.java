@@ -3,12 +3,12 @@ import java.util.List;
 
 public class Unica extends Questao {
     private String opcaoCorreta;
-    private List<String> opcoesErradas;
+    private List<String> opcoes;
 
-    public Unica(int numero, String enunciado, String opcaoCorreta, List<String> opcoesErradas) {
+    public Unica(int numero, String enunciado, String opcaoCorreta, List<String> opcoes) {
         super(numero, enunciado);
         this.opcaoCorreta = opcaoCorreta;
-        this.setOpcoesErradas(opcoesErradas);
+        this.setopcoes(opcoes);
     }
 
     public String getOpcaoCorreta() {
@@ -18,18 +18,25 @@ public class Unica extends Questao {
     public void setOpcaoCorreta(String opcaoCorreta) {
         this.opcaoCorreta = opcaoCorreta;
     }
-    public void setOpcoesErradas(List<String> opcoesErradas) {
-        this.opcoesErradas = opcoesErradas;
+    public void setopcoes(List<String> opcoes) {
+        this.opcoes = opcoes;
     }
 
-    public List<String> getOpcoesErradas() {
-        return opcoesErradas;
+    public List<String> getopcoes() {
+        return opcoes;
     }
+
+    @Override
     
-    public boolean isCorrect(String resposta){
-        if(resposta == opcaoCorreta){
+    public void printEnunciado(){
+        System.out.println(enunciado +"\n-"+opcoes);
+    }
+
+    @Override
+    public boolean isCorrect(String termo){
+        if(termo== opcaoCorreta){
             return true;
-        }
+        } 
         return false;
     }
 

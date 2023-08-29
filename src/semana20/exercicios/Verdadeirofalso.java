@@ -17,12 +17,13 @@ public class Verdadeirofalso extends Questao {
     public void setResposta(boolean resposta) {
         this.resposta = resposta;
     }
-
-    public boolean vf(char termo){
-        if(termo== 'v' && termo=='V' && resposta){
+    
+    @Override
+    public boolean isCorrect(String termo){
+        if(termo== "v" && termo=="V" && resposta){
             return true;
         } else 
-        if(termo== 'f' && termo=='F' && !resposta){
+        if(termo== "f" && termo=="F" && !resposta){
             return true;
         }
         return false;
