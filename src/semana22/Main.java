@@ -2,7 +2,6 @@ package semana22;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
-
 import java.sql.Statement;
 
 //JOBC - Java data Base Connection
@@ -18,7 +17,7 @@ public class Main {
         Connection connection = DriverManager.getConnection(url);
 
         //2.executar a consulta e usar os resultados 
-        String sql="CREATE TABLE goofy(id INT PRIMARY KEY, nome VARCHAR(100), email VARCHAR(255), ativo BOOL);";
+        String sql="CREATE TABLE pikmin(id INT PRIMARY KEY, nome VARCHAR(100), email VARCHAR(255), ativo BOOL);";
         Statement statement = connection.createStatement();
         statement.execute(sql);
 
