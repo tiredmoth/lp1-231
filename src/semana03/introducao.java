@@ -70,7 +70,7 @@ public class introducao {
 
 
 
-
+System.out.println(n1+n2+n3+n4+nota1+nota2+letra+idade+idade2+idade3+sobrenome+TESTE+ligado+desligado);
 
 
 

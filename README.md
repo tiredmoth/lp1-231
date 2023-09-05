@@ -2,13 +2,6 @@
 
 repositório destinado ao conteúdo de LP1.
 
-## Conteúdo
+![](https://media.tenor.com/L0bdKp9HkuoAAAAC/pikmin-nintendo.gif)
 
-- Semana 1
-    - Apresentação da disciplina
-- Semana 2
-    - Introdução ao git e github.
-- Semana 3
-    - Criação de projetos java
-    - Tipos de dados, variáveis e constantes
 

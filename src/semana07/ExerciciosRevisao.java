@@ -75,7 +75,9 @@ public class ExerciciosRevisao{
 
         System.out.println(ex04(n1, n2, n3));
         
-        
+        System.out.println(array1);
+        System.out.println(array2);
+        System.out.println(array3);
         
 
 
