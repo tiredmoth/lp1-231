@@ -3,9 +3,6 @@
 <br>
 
 
-![alt text for screen readers]("C:\Users\Dell\Downloads\blinkiesCafe-Xj.gif" "yipeee").
-
-
 <img src="https://media.tenor.com/L0bdKp9HkuoAAAAC/pikmin-nintendo.gif"/>
 
 
